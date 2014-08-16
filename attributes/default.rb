@@ -18,6 +18,10 @@ if node['platform_family'] == 'mac_os_x'
   when 9
     default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.2.1-10.9-Mavericks.pkg'
     default['macports']['checksum'] = '2df01bf88e1e3de32ada0f42a8a46fb992093baee62f9d911fa3ae3ee895d471'
+  when 10
+    # Not yet officially supported, let's cheat and use the 10.9 one for now
+    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.2.1-10.9-Mavericks.pkg'
+    default['macports']['checksum'] = '2df01bf88e1e3de32ada0f42a8a46fb992093baee62f9d911fa3ae3ee895d471'
   else
     raise "Unsupported platform version #{node['platform_version']}"
   end
