@@ -1,23 +1,23 @@
 if node['platform_family'] == 'mac_os_x'
   case node['platform_version'].split('.')[1].to_i
   when 4
-    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.2.1-10.4-Tiger.dmg'
-    default['macports']['checksum'] = 'd171c5b3302bf1cb1c3122978fe260b5fd994e00ba12a434b649fa297c8f70cc'
+    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.4-Tiger.dmg'
+    default['macports']['checksum'] = 'edf5fc3995c2daf0ff16180e865a072b817d6e83c87107f52a6adba4e61d7f2c'
   when 5
-    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.2.1-10.5-Leopard.dmg'
-    default['macports']['checksum'] = '9bc34ff5d825d6092caac7320c9b99ab4a11dfb3f29f647570e226e83bf4a7ee'
+    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.5-Leopard.dmg'
+    default['macports']['checksum'] = 'c7aea626009fa4a1a07b5fdce7ac01c94257701052387c6ee5d10df666c07a4b'
   when 6
-    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.2.1-10.6-SnowLeopard.pkg'
-    default['macports']['checksum'] = '5a573e129ef69980e50aed21903b0ff8a3d875701f2d74af45b264639d3ca48f'
+    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.6-SnowLeopard.pkg'
+    default['macports']['checksum'] = 'a830e26a1e72038a38bc807f4276ff6f503717a64531ae15a18bb9d5db165fcc'
   when 7
-    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.2.1-10.7-Lion.pkg'
-    default['macports']['checksum'] = 'fe231f18af67b404bf84effe8d479f22685db38a920e69b34d04f20aace3cc31'
+    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.7-Lion.pkg'
+    default['macports']['checksum'] = '3c32cbcd7d2fdb91326ce788dcfb247c0a7b23984bacd9cd85b46286b65daa41'
   when 8
-    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.2.1-10.8-MountainLion.pkg'
-    default['macports']['checksum'] = 'd10bf4a27f89709501e1370d7d80f415eaf16bae23fd9ff3d4e96f86afdf8cd6'
+    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.8-MountainLion.pkg'
+    default['macports']['checksum'] = 'd4648634b571ada1f81cdc5583a48d0ceed1ef55ce5a2de0bdaaaf4b570b77f0'
   when 9
-    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.2.1-10.9-Mavericks.pkg'
-    default['macports']['checksum'] = '2df01bf88e1e3de32ada0f42a8a46fb992093baee62f9d911fa3ae3ee895d471'
+    default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.9-Mavericks.pkg'
+    default['macports']['checksum'] = 'e47cab9b36543a4f9a1f8ea99ef34558bed08b8f8f5dc619b278a061c9daf3af'
   when 10
     default['macports']['url'] = 'https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.10-Yosemite.pkg'
     default['macports']['checksum'] = '70a5b06600136f69a24c86ffaf7c4a86303e42ec4e447182cdda1cf2cf6f8a87'
