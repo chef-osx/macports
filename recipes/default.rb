@@ -28,7 +28,7 @@ if node['platform_version'].split('.')[1].to_i > 5
     not_if "pkgutil --pkgs=org.macports.MacPorts"
   end
 else
-  dmg_package "MacPorts-2.2.1" do
+  dmg_package "MacPorts-2.3.3" do
     source node['macports']['url']
     checksum node['macports']['checksum']
     action :install

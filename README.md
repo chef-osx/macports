@@ -8,7 +8,7 @@ Requirements
 
 #### Platforms
 
-Mac OS X 10.4-10.9
+Mac OS X 10.4-10.10
 
 #### Cookbooks
 
