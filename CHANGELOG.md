@@ -3,6 +3,10 @@ macports CHANGELOG
 
 This file is used to list changes made in each version of the macports cookbook.
 
+1.1.2
+-----
+- Ensure correct DMG name
+
 1.1.1
 -----
 - Update to MacPorts 2.3.3
